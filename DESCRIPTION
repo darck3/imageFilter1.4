@@ -1,0 +1,15 @@
+Package: imagefilters
+Title: Integrated package within the magick function
+Version: 1.4
+Authors@R: 
+    person("Ivan", "Vlassakev", , "ivan.vlassakev@ki.se", role = c("aut", "cre"))
+Description: An easy way to apply filters to your tissue section images
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Imports: 
+    magick
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
